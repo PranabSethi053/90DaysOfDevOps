@@ -108,13 +108,12 @@
 
         *) mkdir /home/user/Mydirectory   # make a new folder in a specific location
                 
-                HP@PRANAB MINGW64 /c/Pranab (main)
+                HP@PRANAB MINGW64 / (main)
                 $ mkdir home/user/MyDirectory
-                HP@PRANAB MINGW64 /c/Pranab (main)
-                $ cd home/user/MyDirectory/ 
-                HP@PRANAB MINGW64 /c/Pranab/home/user/MyDirectory (main)
-                $ ls
-
+                HP@PRANAB MINGW64 / (main)
+                $ cd home/user/MyDirectory/
+                HP@PRANAB MINGW64 /home/user/MyDirectory (main)
+                $ ls      
 
        *)  mkdir -p  A/B/C/D              # make a nested directory
        
