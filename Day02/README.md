@@ -10,7 +10,7 @@
         $ ls -a
         ./  ../  MyDirectory/
 
-        ls *.sh:-list all the files having .sh extension.
+        ls *.exe:-list all the files having .exe extension.
         HP@PRANAB MINGW64 ~/Downloads
         $ ls *.exe
         Anaconda3-2024.06-1-Windows-x86_64.exe*   mingw-get-setup.exe*       tsetup-x64.5.4.0.exe*
@@ -73,74 +73,75 @@
         $ cd ../..
         HP@PRANAB MINGW64 /c
 
-        mkdir  directoryName :- to make a directory in a specific location.
-        HP@PRANAB MINGW64 /c/Pranab (main)
-        $ mkdir newfolder
+        *) mkdir  directoryName :- to make a directory in a specific location.
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ mkdir newfolder
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ ls
+                MyFolder1/                         'thermo lecture 8'/
+                MyFolder2/                         'thermo lecture 9'/
+                newfolder/                          var/
 
-        HP@PRANAB MINGW64 /c/Pranab (main)
-        $ ls
-        MyFolder1/                         'thermo lecture 8'/
-        MyFolder2/                         'thermo lecture 9'/
-        newfolder/                          var/
+        *) mkdir .NewFolder    # make a hidden directory (also . before a file to make it hidden)
+        
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ mkdir .NewFolder
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ ls -a
+                ./                                  JAVA/                  'Python(Jupiter)'/
+                ../                                 kuberentes_notes_app    Python_Data-Types_Assignment.ipynb
+                .git/                               Lec-13.ppt              README.md
+                .NewFolder/
 
+        *) mkdir A B C D                  #make multiple directories at the same time
+        
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ mkdir A B C D
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ ls
+                A                                  Lec-14.ppt             Sample-Github-Actions-Workflow
+                ansible-inventory                  metal                  Springboot_bankapp_Kubernetes
+                B                                  Movies                 terraform_ec2
+                'bhai document.pdf'                 MyFolder1              terraform_EC2_Data_Variable_Output
+                C                                  MyFolder2             'thermo lecture 10'
+                D
 
-        HP@PRANAB MINGW64 /c/Pranab (main)
-        $ mkdir .NewFolder
-        HP@PRANAB MINGW64 /c/Pranab (main)
-        $ ls -a
-        ./                                  JAVA/                  'Python(Jupiter)'/
-        ../                                 kuberentes_notes_app    Python_Data-Types_Assignment.ipynb
-        .git/                               Lec-13.ppt              README.md
-        .NewFolder/
+        *) mkdir /home/user/Mydirectory   # make a new folder in a specific location
+                
+                HP@PRANAB MINGW64 / (main)
+                $ mkdir home/user/MyDirectory
+                HP@PRANAB MINGW64 / (main)
+                $ cd home/user/MyDirectory/
+                HP@PRANAB MINGW64 /home/user/MyDirectory (main)
+                $ ls      
 
-        HP@PRANAB MINGW64 /c/Pranab (main)
-        $ mkdir A B C D
-
-        HP@PRANAB MINGW64 /c/Pranab (main)
-        $ ls
-        A                                  Lec-14.ppt             Sample-Github-Actions-Workflow
-        ansible-inventory                  metal                  Springboot_bankapp_Kubernetes
-        B                                  Movies                 terraform_ec2
-        'bhai document.pdf'                 MyFolder1              terraform_EC2_Data_Variable_Output
-        C                                  MyFolder2             'thermo lecture 10'
-        D
-
-        HP@PRANAB MINGW64 /c
-        $ mkdir Pranab/A/MyDirectory
-        HP@PRANAB MINGW64 /c
-        $ cd Pranab/A/MyDirectory/
-        HP@PRANAB MINGW64 /c/Pranab/A/MyDirectory (main)
-
-        HP@PRANAB MINGW64 /c
-        $ mkdir -p Pranab/A/MyDirectory/E/H/G
-        HP@PRANAB MINGW64 /c
-        $ cd Pranab/A/MyDirectory/
-        HP@PRANAB MINGW64 /c/Pranab/A/MyDirectory (main)
-        $ ls
-        E/
-        HP@PRANAB MINGW64 /c/Pranab/A/MyDirectory (main)
-        $ cd E
-        HP@PRANAB MINGW64 /c/Pranab/A/MyDirectory/E (main)
-        $ ls
-        H/
-        HP@PRANAB MINGW64 /c/Pranab/A/MyDirectory/E (main)
-        $ cd H  
-        HP@PRANAB MINGW64 /c/Pranab/A/MyDirectory/E/H (main)
-        $ ls
-        G/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       *)  mkdir -p  A/B/C/D              # make a nested directory
+       
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ mkdir -p  A/B/C/D
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ ls
+                 2024_GIT_TUTORIAL/                 'Nimcet Documents'/
+                 90DaysOfDevOps/                     node-cicd
+                '90DaysOfDevOps(LondheSubham153)'/   open_source
+                 A/                                 'Original Documents'/
+                HP@PRANAB MINGW64 /c/Pranab (main)
+                $ cd A
+                HP@PRANAB MINGW64 /c/Pranab/A (main)
+                $ ls
+                B/
+                HP@PRANAB MINGW64 /c/Pranab/A (main)
+                $ cd B
+                HP@PRANAB MINGW64 /c/Pranab/A/B (main)
+                $ ls
+                C/
+                HP@PRANAB MINGW64 /c/Pranab/A/B (main)
+                $ cd C
+                HP@PRANAB MINGW64 /c/Pranab/A/B/C (main)
+                $ ls
+                D/
+                HP@PRANAB MINGW64 /c/Pranab/A/B/C (main)
+                $ cd D
+                HP@PRANAB MINGW64 /c/Pranab/A/B/C/D (main)
+                $ ls   
+                
