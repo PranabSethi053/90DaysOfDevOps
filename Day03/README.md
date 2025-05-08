@@ -32,8 +32,8 @@
 
      5  In a statement shortly after the Indian statement, DG ISPR said that all planes of Pakistan Air Force are airborne. “All strikes were made by India from its own airspace. Pakistan will respond to it at a      time and place of its own choosing. It will not go unanswered. The temporary pleasure of India will be replaced by enduring grief,” it stated.
 
-
-    less -N filename.txt
+    HP@PRANAB MINGW64 /c/Pranab (main)
+    $ less -N filename.txt
     1 The Indian Armed Forces on Wednesday (May 7, 2025) launched ‘Operation Sindoor’, hitting terrorist infrastructure in Pakistan and Pakistan-occupied Jammu and Kashmir, a government release read. India ex        1 ercised its right to act on terror, Foreign Secretary Vikram Misri said on the launch of military strikes on nine targets in Pakistan and Pakistan Occupied Jammu and Kashmir (POJK) under ‘Operation Sind        1 oor’ while stressing that the actions were “measured, non-escalatory, proportionate, and responsible” and focused on dismantling the terrorist infrastructure and disabling terrorists likely to be sent a        1 cross to India.
     2
     3
