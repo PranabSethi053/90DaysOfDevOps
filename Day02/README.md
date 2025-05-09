@@ -10,12 +10,12 @@
         $ ls -a
         ./  ../  MyDirectory/
 
-        ls *.exe:-list all the files having .exe extension.
+        ls *.sh:-list all the files having .sh extension.
         HP@PRANAB MINGW64 ~/Downloads
-        $ ls *.exe
-        Anaconda3-2024.06-1-Windows-x86_64.exe*   mingw-get-setup.exe*       tsetup-x64.5.4.0.exe*
-        'Docker Desktop Installer.exe'*            Oracle_10g_XE.exe*        'vs_BuildTools (1).exe'*
- 
+        $ ls *.sh
+        compare_numbers.sh*  devops_challenge.sh*  input_example.sh*
+        setup_environment.sh*    backup_logs.sh*    cleanup_temp.sh*
+
         ls -i:- list the files and directories with index numbers inodes
         HP@PRANAB MINGW64 /c/Pranab (main)
         $ ls -i
