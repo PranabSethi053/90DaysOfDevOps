@@ -95,39 +95,39 @@
     
     #!/bin/bash
 
-# Read two numbers from the user
-read -p "Enter first number: " num1
-read -p "Enter second number: " num2
+    # Read two numbers from the user
+    read -p "Enter first number: " num1
+    read -p "Enter second number: " num2
+    
+    # Compare the numbers
+    if [ "$num1" -gt "$num2" ]; then
+      echo "$num1 is greater than $num2"
+    elif [ "$num1" -lt "$num2" ]; then
+      echo "$num1 is less than $num2"
+    else
+      echo "Both numbers are equal"
+    fi
+    
+     HP@PRANAB MINGW64 /c/Pranab (main)
+     $ chmod +x compare_numbers.sh
 
-# Compare the numbers
-if [ "$num1" -gt "$num2" ]; then
-  echo "$num1 is greater than $num2"
-elif [ "$num1" -lt "$num2" ]; then
-  echo "$num1 is less than $num2"
-else
-  echo "Both numbers are equal"
-fi
     HP@PRANAB MINGW64 /c/Pranab (main)
-    $ chmod +x compare_numbers.sh
-
+    $ ./compare_numbers.sh
+    Enter first number: -5
+    Enter second number: -9
+    -5 is greater than -9
+    
     HP@PRANAB MINGW64 /c/Pranab (main)
-$ ./compare_numbers.sh
-Enter first number: -5
-Enter second number: -9
--5 is greater than -9
-
-HP@PRANAB MINGW64 /c/Pranab (main)
-$ ./compare_numbers.sh
-Enter first number: 9
-Enter second number: 9
-Both numbers are equal
-
-HP@PRANAB MINGW64 /c/Pranab (main)
-$ ./compare_numbers.sh
-Enter first number: 0
-Enter second number: 8
-0 is less than 8
-
+    $ ./compare_numbers.sh
+    Enter first number: 9
+    Enter second number: 9
+    Both numbers are equal
+    
+    HP@PRANAB MINGW64 /c/Pranab (main)
+    $ ./compare_numbers.sh
+    Enter first number: 0
+    Enter second number: 8
+    0 is less than 8
 
 
 
