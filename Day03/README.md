@@ -2,7 +2,7 @@
 
     HP@PRANAB MINGW64 /c/Pranab (main)
     $ cat -n filename.txt
-    1  The Indian Armed Forces on Wednesday (May 7, 2025) launched ‘Operation Sindoor’, hitting terrorist infrastructure in Pakistan and Pakistan-occupied Jammu and Kashmir, a government release read. India          exercised its right to act on terror, Foreign Secretary Vikram Misri said on the launch of military strikes on nine targets in Pakistan and Pakistan Occupied Jammu and Kashmir (POJK) under ‘Operation             Sindoor’ while stressing that the actions were “measured, non-escalatory, proportionate, and responsible” and focused on dismantling the terrorist infrastructure and disabling terrorists likely to be sent        across to India.
+     1  The Indian Armed Forces on Wednesday (May 7, 2025) launched ‘Operation Sindoor’, hitting terrorist infrastructure in Pakistan and Pakistan-occupied Jammu and Kashmir, a government release read. India          exercised its right to act on terror, Foreign Secretary Vikram Misri said on the launch of military strikes on nine targets in Pakistan and Pakistan Occupied Jammu and Kashmir (POJK) under ‘Operation             Sindoor’ while stressing that the actions were “measured, non-escalatory, proportionate, and responsible” and focused on dismantling the terrorist infrastructure and disabling terrorists likely to be sent        across to India.
      2
      3
      4
