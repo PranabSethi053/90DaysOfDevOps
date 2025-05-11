@@ -102,7 +102,7 @@
                 A                                  Lec-14.ppt             Sample-Github-Actions-Workflow
                 ansible-inventory                  metal                  Springboot_bankapp_Kubernetes
                 B                                  Movies                 terraform_ec2
-                'bhai document.pdf'                 MyFolder1              terraform_EC2_Data_Variable_Output
+               'bhai document.pdf'                 MyFolder1              terraform_EC2_Data_Variable_Output
                 C                                  MyFolder2             'thermo lecture 10'
                 D
 
