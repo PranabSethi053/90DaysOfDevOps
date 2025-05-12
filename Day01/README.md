@@ -16,13 +16,11 @@
     2)  Speeds up processes like code deployment, testing, and monitoring
     3)  Ensures consistency and repeatability
 
-
     Scaling is the ability of a system to handle increased workload by expanding resources
     (up or out).
 
     Vertical Scaling: Adding more power (CPU/RAM) to an existing server
     Horizontal Scaling: Adding more servers or containers to distribute load
-
 
     Infrastructure refers to the underlying hardware, software, network, and systems that
     support your applications.
