@@ -141,8 +141,8 @@
     
     HP@PRANAB MINGW64 /c/Pranab (main)
     $ echo "Pineapple" >> devops.txt
-    HP@PRANAB MINGW64 /c/Pranab (main)
     
+    HP@PRANAB MINGW64 /c/Pranab (main)
     $ cat devops.txt
     Apple
     Mango
