@@ -114,6 +114,7 @@
     Mango
     Orange
     Grapes
+    
     HP@PRANAB MINGW64 /c/Pranab (main)
     $ cat fruits.txt
     Apple
@@ -127,6 +128,7 @@
 
     HP@PRANAB MINGW64 /c/Pranab (main)
     $ echo -e "Apple\nMango\nBanana\nCherry\nKiwi\nOrange\nGuava" > devops.txt
+    
     HP@PRANAB MINGW64 /c/Pranab (main)
     $ cat devops.txt
     Apple
@@ -136,9 +138,11 @@
     Kiwi
     Orange
     Guava
+    
     HP@PRANAB MINGW64 /c/Pranab (main)
     $ echo "Pineapple" >> devops.txt
     HP@PRANAB MINGW64 /c/Pranab (main)
+    
     $ cat devops.txt
     Apple
     Mango
