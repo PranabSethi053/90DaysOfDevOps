@@ -4,6 +4,8 @@
 
     HP@PRANAB MINGW64 /c/Pranab (main)
     $ mkdir day{1..90}
+    
+    HP@PRANAB MINGW64 /c/Pranab (main)
     $ ls
      2024_GIT_TUTORIAL/                  day69/
      90DaysOfDevOps/                     day7/
