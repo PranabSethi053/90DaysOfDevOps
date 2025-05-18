@@ -128,8 +128,3 @@
     Enter first number: 0
     Enter second number: 8
     0 is less than 8
-
-
-
-
-
