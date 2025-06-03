@@ -107,6 +107,7 @@
     else
       echo "Both numbers are equal"
     fi
+
     
      HP@PRANAB MINGW64 /c/Pranab (main)
      $ chmod +x compare_numbers.sh
